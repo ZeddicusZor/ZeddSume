@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   private title: String;
+  private myName: String;
   constructor() { }
 
   ngOnInit() {
-    this.title = 'Welcome to David Blau\'s Online Resume';
+    this.myName = 'David J. Blau';
+    this.title = `Welcome to ${this.myName}'s Online Resume`;
   }
 
 }
