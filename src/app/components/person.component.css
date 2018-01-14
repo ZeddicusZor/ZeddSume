@@ -1,0 +1,19 @@
+.skillGroup {
+  padding-left: 30px;
+}
+.bg-blue {
+  background-color: blue;
+  min-height: 72px;
+}
+
+.vcent {
+  vertical-align: middle;
+  /* background-color: red; */
+  min-height: 75px;
+  padding-left: 50px;
+}
+
+.vcent2 {
+  display: inline-block;
+  -webkit-prefix: '>';
+}

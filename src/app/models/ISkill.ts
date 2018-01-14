@@ -1,12 +1,12 @@
-export interface ISkill {
+export class ISkillGroup {
   name: string;
-  numYears?: number;
-  tags?: string[];
-  versions?: string[];
-  shortHand?: string;
+  skills?: Skill[];
 }
 
-export interface ISkillGroup {
+export class Skill {
   name: string;
-  skills: ISkill[];
+  tags?: string[];
+  version?: string[];
+  shortHand?: string;
+
 }

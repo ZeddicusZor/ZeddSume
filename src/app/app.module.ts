@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { PersonComponent } from './components/person.component';
+import { JobComponent } from './models/IJob';
 
 const routes: Routes = [
   {
@@ -15,7 +17,9 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PersonComponent,
+    JobComponent
   ],
   imports: [
     RouterModule.forRoot(routes, { enableTracing: true }),
